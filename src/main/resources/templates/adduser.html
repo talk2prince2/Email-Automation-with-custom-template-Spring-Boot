@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<!--<html>
+<head>
+    <style type="text/css">
+        body {
+            background-color: powderblue;
+        }
+
+        h1 {
+            color: black;
+            font-family: arial;
+        }
+
+        p {
+            color: yellow;
+            font-family: verdana;
+        }
+    </style>
+    <title >Fraud Detection</title>
+</head>
+<body>
+<h2>Fraud Submission Form</h2>
+<form method="post" action="">
+    <p>Email : <input type="text" name="email"/></p>
+    <p>Description : <input type="text" name="description"></p>
+    <p><input type="submit" value="Submit"></p>
+</form>
+</body>
+</html>
+-------------------------------------------------------------------------------------------------
+
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 12px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+div {
+  width:300px;
+  margin: auto;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 12px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+  overflow: none;
+  display: block;
+  z-index: 1;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+
+}
+</style>
+</head>
+<body>
+
+<h2 align="center">Fraud Submission Portal</h2>
+
+<form method="post" action="">
+
+
+    <div class="container" style="background-color:#f1f1f1;width:600px; margin:0 auto;">
+        <label><b>Email</b></label>
+        <input type="text" name="email"/>
+        <label><b>Description</b></label>
+        <input type="text" name="description">
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1;width:600px; margin:0 auto;">
+        <label><b>Email Template</b></label>
+        <textarea name="email_input" rows="4" cols="50"/></textarea>
+
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1;width:600px; margin:0 auto;">
+        <button type="submit" value="Submit">Submit</button>
+    </div>
+</form>
+
+</body>
+</html>
+
+-->
+
+
+
+
+
+
+<!DOCTYPE html>
+<head>
+    <style type="text/css">
+body
+{
+margin: 0;
+padding: 0;
+background-color:#6abadeba;
+font-family: 'Arial';
+}
+.login{
+width: 382px;
+overflow: hidden;
+margin: auto;
+margin: 20 0 0 450px;
+padding: 80px;
+background: #23463f;
+border-radius: 15px ;
+
+}
+h2{
+text-align: center;
+color: #277582;
+padding: 20px;
+}
+label{
+color: #08ffd1;
+font-size: 17px;
+}
+#Uname{
+width: 300px;
+height: 30px;
+border: none;
+border-radius: 3px;
+padding-left: 8px;
+}
+#Pass{
+width: 300px;
+height: 30px;
+border: none;
+border-radius: 3px;
+padding-left: 8px;
+
+}
+#log{
+width: 300px;
+height: 30px;
+border: none;
+border-radius: 17px;
+padding-left: 7px;
+color: blue;
+
+
+}
+span{
+color: white;
+font-size: 17px;
+}
+a{
+float: right;
+background-color: grey;
+}
+</style>
+</head>
+<html>
+<head>
+    <title>Fraud Submission Portal</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<h2></h2><br>
+<h3 align="center">Fraud Submission Portal</h3>
+
+<div class="login">
+
+    <form method="post" action="">
+        <label><b>Email
+        </b>
+         <br>
+        </label>
+        <input type="text" name="email" id="uname" size="39"/>
+        <br><br>
+        <label><b>Description
+        </b>
+        </label>
+        <input type="text" name="description" id="Pass" size="25">
+        <br><br>
+
+        <label><b>Email Template
+        </b>
+        </label>
+        <textarea name="email_input" rows="4" cols="50"/></textarea>
+        <br><br>
+
+        <button class="button" style="background-color:green;color:white;" type="submit" value="Submit">Submit</button>
+        <br><br>
+        <input type="checkbox" id="check">
+        <span>Remember me</span>
+        <br><br>
+    </form>
+</div>
+</body>
+</html>
